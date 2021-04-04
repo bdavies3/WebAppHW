@@ -7,3 +7,5 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 [View Assignment Video Here](https://youtu.be/QbMWNgrfAFg)
 
 ![Pycharm Data Query](screenshots/query.png) 
+
+![Postman Picture](screenshots/postman.png)
