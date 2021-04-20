@@ -6,6 +6,8 @@ This is part 2 of a project that is a homework assignment to teach how to get Py
 
 [View Assignment Video Here](https://youtu.be/QbMWNgrfAFg)
 
+# Project Part 3 Screenshot
+![Pycharm Part 3](screenshots/part3.png)
 # Project Part 2 Screenshot
 ![Pycharm Part 2](screenshots/Part2.png) 
 # Project Query Screenshot
