@@ -3,25 +3,24 @@
 <table class="table">
     <thead>
     <tr>
-        <th scope="col">City Name</th>
-        <th scope="col">Latitude</th>
-        <th scope="col">Longitude</th>
-        <th scope="col">Country</th>
-        <th scope="col">Abbreviation</th>
-        <th scope="col">Capital Status</th>
-        <th scope="col">Population</th>
+        <th scope="col">Player Name</th>
+        <th scope="col">Player Team</th>
+        <th scope="col">Player Position</th>
+        <th scope="col">Player Height</th>
+        <th scope="col">Player Weight</th>
+        <th scope="col"Player Age</th>
     </tr>
     </thead>
     <tbody>
     {% for city in cities %}
     <tr>
         <td><a href="view/{{city.id}}">{{ city.fldName }}</a></td>
-        <td>{{ city.fldLat }}</td>
-        <td>{{ city.fldLong }}</td>
-        <td>{{ city.fldCountry }}</td>
-        <td>{{ city.fldAbbreviation }}</td>
-        <td>{{ city.fldCapitalStatus }}</td>
-        <td>{{ city.fldPopulation }}</td>
+        <td>{{ city.fldName }}</td>
+        <td>{{ city.fldTeam }}</td>
+        <td>{{ city.fldPosition }}</td>
+        <td>{{ city.fldHeight_inches }}</td>
+        <td>{{ city.fldWeight_lbs }}</td>
+        <td>{{ city.fldAge }}</td>
     </tr>
     {% endfor %}
     </tbody>
